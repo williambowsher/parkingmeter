@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingMeter", "ParkingMeter\ParkingMeter.csproj", "{82DC6C13-F38B-41C4-BF7A-AFFF54C8A4E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingMeterTests", "ParkingMeterTests\ParkingMeterTests.csproj", "{876B262C-F421-4593-A79B-4C18500776E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82DC6C13-F38B-41C4-BF7A-AFFF54C8A4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DC6C13-F38B-41C4-BF7A-AFFF54C8A4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DC6C13-F38B-41C4-BF7A-AFFF54C8A4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DC6C13-F38B-41C4-BF7A-AFFF54C8A4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876B262C-F421-4593-A79B-4C18500776E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876B262C-F421-4593-A79B-4C18500776E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876B262C-F421-4593-A79B-4C18500776E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876B262C-F421-4593-A79B-4C18500776E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F65F9E8D-1BF7-4F6F-BF9C-1B12F8D0CEB4}
+	EndGlobalSection
+EndGlobal
