@@ -12,12 +12,12 @@ namespace ParkingMeterTests
         {
             //Arrange
             var parkingMeter = new ParkingMeter.ParkingMeter();
-            var shortTermRule = new ChargeRule();
-            var longTermRule = new ChargeRule();
+            var shortTermRule = new ShortStayRule();
+            var longTermRule = new LongStayRule();
             //Act
-            parkingMeter.ActiveRules = new IChargeRule[] { shortTermRule, longTermRule };
+            parkingMeter.ActiveSchemes = new IChargeRule[] { shortTermRule, longTermRule };
             //Assert
-            parkingMeter.ActiveRules.Count().Should().Be(2);
+            parkingMeter.ActiveSchemes.Count().Should().Be(2);
         }
     }
 }

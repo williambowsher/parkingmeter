@@ -4,9 +4,10 @@ using System.Linq;
 
 namespace ParkingMeter.ChargeRules
 {
-    public class ChargeRule : IChargeRule
+    public abstract class ChargeRule : IChargeRule
     {
-        public double PeriodRate { get; set; }
+        public ChargingScheme Scheme { get; set; }
+        public decimal PeriodRate { get; set; }
 
         public TimeSpan Increment { get; set; }
         public IEnumerable<DayOfWeek> ActiveDays { get; set; }
@@ -29,5 +30,7 @@ namespace ParkingMeter.ChargeRules
             }
             return false;
         }
+
+        public abstract decimal Calculate(ChargingScheme customerSelection, DateTime entryTime, DateTime exitTime);
     }
 }
